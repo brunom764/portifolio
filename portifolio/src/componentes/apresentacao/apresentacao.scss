@@ -13,9 +13,9 @@
 .img {
     max-height: 20rem;
     max-width: 20rem;
-    border-radius: 200px;
     margin: 2rem;
-    box-shadow:10px 10px 10px 5px rgba(0, 210, 223, 0.3);
+    border-radius: 150px;
+    filter: drop-shadow(10px 10px 10px rgba(0, 210, 223, 0.35))
 }
 
 .subTextoAnimado{

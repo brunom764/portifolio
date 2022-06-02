@@ -1,6 +1,6 @@
 import { Button } from 'react-bootstrap';
 import './apresentacao.scss'
-import fotoDePerfil from '../../assets/AvatarMaker.svg'
+import fotoDePerfil from '../../assets/avatar.png'
 import Typical from 'react-typical';
 import 'animate.css';
 
@@ -12,7 +12,7 @@ function mostrarInfo() {
     apresentacao.classList.add("oculta");
     portifolio.classList.remove("oculta");
     resumir.classList.remove("oculta");
-    window.scrollTo(0,750)
+    window.scrollTo(0,650)
 }
 
 function apagarInfo() {
