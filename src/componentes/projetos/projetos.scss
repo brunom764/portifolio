@@ -24,12 +24,17 @@
     border-bottom: solid 0.5px #222;
 }
 
+.Buttonlinks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
+
 @media screen and (max-width:1024px) { // tablet
     .card{
         width:40%
     }
     .Buttonlinks{
-        display: flex;
         margin: 0 auto;
     }
 }
@@ -39,7 +44,6 @@
         width:70%
     }
     .Buttonlinks{
-        display: flex;
         margin: 0 auto;
     }
 }
