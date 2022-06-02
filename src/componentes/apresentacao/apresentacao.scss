@@ -1,0 +1,43 @@
+.apresentacao{
+    background-color: #F7F7F7;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+  
+  
+.img {
+    max-height: 20rem;
+    max-width: 20rem;
+    border-radius: 200px;
+    margin: 2rem;
+    box-shadow:10px 10px 10px 5px rgba(0, 210, 223, 0.3);
+}
+
+.subTextoAnimado{
+    margin: 2rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.button{
+    margin: 0rem 4rem 0rem 4rem;
+    height: 5rem;
+    width: 20rem;
+    border-radius: 200px !important;
+}
+
+
+@media screen and (max-width:768px) {
+    .img{
+        max-height: 15rem;
+        max-width: 15rem;
+    }
+    .button{
+        height: 3.75rem;
+        width: 15rem;
+    }
+}

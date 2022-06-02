@@ -1,0 +1,30 @@
+.conhecimentos{
+    margin: 2rem 0;
+    padding: 3rem;
+}
+
+.conhecimentosImgBloco{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 0;
+}
+
+.conhecimentoImg{
+    width: 10rem;
+    height: 10rem;
+    margin: 2.5rem;
+    border-radius: 20px;
+    box-shadow:5px 5px 5px 2.5px rgba(0, 210, 223, 0.2);
+}
+
+.conhecimentoImg:hover{
+    opacity: .5;
+}
+
+@media screen and (max-width:768px) {
+    .conhecimentoImg{
+    max-width: 5rem;
+    max-height: 5rem;
+    margin: .75rem auto;
+    }
+}

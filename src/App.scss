@@ -1,0 +1,42 @@
+@import "~bootstrap/scss/bootstrap";
+
+.oculta{
+    display: none;
+}
+
+.titulo{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.textoDestaque{
+    color: #00d2df
+}
+
+.destaquePrimeiraLetra:first-letter{
+    color: #00d2df;
+}
+
+.texto{
+    margin: 2rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.textoNegrito{
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #1b1b1b;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #00d2df;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #00bbc5;
+  }
