@@ -1,0 +1,31 @@
+.sobre{
+    padding: 2rem;
+}
+
+.sobreBlocos{
+    display: flex;
+    padding: 2rem;
+}
+
+.avatar{
+    padding: 0 2rem ;
+    height:45%;
+    width:45%;
+}
+
+.avatar:hover{
+    opacity: .75;
+}
+
+.paragrafoSobre{
+    margin: 2rem auto;
+    font-size: 1.5rem;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .avatar{
+        display: none;
+    }
+}

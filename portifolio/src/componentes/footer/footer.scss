@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #222;
+    border-top: solid 5px #00d2df;
+    width: 100%;
+}
+
+.footerText{
+    padding: 1rem;
+    color:#FFF;
+    font-size: 1.5rem;
+}
+
+.iconFooter{
+    font-size: 4rem;
+    display: flex;
+    vertical-align:middle;
+}
+
+.bodyline {
+    -moz-box-shadow: 0px 20px 20px #86CEEB;
+    -webkit-box-shadow: 0px 20px 20px #86CEEB;
+    }
