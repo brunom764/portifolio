@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.72b85fce.css",
+    "main.js": "/static/js/main.88fbfde8.js",
+    "static/media/a-bendita-italia.png": "/static/media/a-bendita-italia.81007fe735978fe60055.png",
+    "static/media/eventsCalendar.png": "/static/media/eventsCalendar.c904ad1774d752044715.png",
+    "static/media/brafood.png": "/static/media/brafood.5098de633a56a68effee.png",
+    "static/media/typerGame.png": "/static/media/typerGame.ccc036da2d94de704e99.png",
+    "static/media/avatar.png": "/static/media/avatar.498fa7d52f5d64db0669.png",
+    "static/media/avatarNot.png": "/static/media/avatarNot.86071673cfffe215f552.png",
+    "index.html": "/index.html",
+    "main.72b85fce.css.map": "/static/css/main.72b85fce.css.map",
+    "main.88fbfde8.js.map": "/static/js/main.88fbfde8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72b85fce.css",
+    "static/js/main.88fbfde8.js"
+  ]
+}
