@@ -16,8 +16,8 @@ function App() {
         <Sobre/>
         <Projetos/>
         <Conhecimentos/>
+        <Footer/>
       </section>
-      <Footer/>
     </section>
   );
 }
