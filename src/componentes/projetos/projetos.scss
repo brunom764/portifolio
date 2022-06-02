@@ -10,9 +10,9 @@
 }
 
 .card{
-    width: 40%;
+    width: 20%;
     margin: 2rem auto;
-    box-shadow:10px 10px 10px 5px rgba(0, 210, 223, 0.2);
+    //box-shadow:10px 10px 10px 5px rgba(0, 210, 223, 0.2);
     //-moz-box-shadow: 0px 20px 20px #00d2df;
     //-webkit-box-shadow: 0px 20px 20px #00d2df;
     border-left: solid 5px #00d2df;
@@ -20,11 +20,21 @@
 
 .cardImg{
     object-fit: cover;
-    max-height: 20rem;
+    max-height: 10rem;
     border-bottom: solid 0.5px #222;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) { // tablet
+    .card{
+        width:40%
+    }
+    .Buttonlinks{
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:768px) { //mobile
     .card{
         width:70%
     }

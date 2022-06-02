@@ -3,25 +3,55 @@
     padding: 3rem;
 }
 
+.blocoSessoes{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 2rem;
+}
+
+.blocoDescricaoConhecimento{
+    margin-top: 2.5rem;
+}
+
+.descricaoConhecimento{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 .conhecimentosImgBloco{
     display: flex;
     flex-wrap: wrap;
-    margin: 5rem 0;
+    margin: 2.5rem 0;
 }
 
 .conhecimentoImg{
-    width: 10rem;
-    height: 10rem;
-    margin: 2.5rem;
-    border-radius: 20px;
-    box-shadow:5px 5px 5px 2.5px rgba(0, 210, 223, 0.2);
+    width: 6rem;
+    height: 6rem;
+    margin: 2.65rem;
+    //border-radius: 20px;
+    //box-shadow:5px 5px 5px 2.5px rgba(0, 210, 223, 0.2);
+    filter: drop-shadow(10px 10px 10px rgba(0, 210, 223, 0.2))
 }
 
 .conhecimentoImg:hover{
     opacity: .5;
 }
 
+@media screen and (max-width:1024px) { // tablet
+    .blocoSessoes{
+        display: block;
+    }
+    .conhecimentoImg{
+        max-width: 7.55rem;
+        max-height: 7.5rem;
+        margin: 1rem .75rem;
+        }
+}
+
 @media screen and (max-width:768px) {
+    .blocoSessoes{
+        display: block;
+    }
     .conhecimentoImg{
     max-width: 5rem;
     max-height: 5rem;
