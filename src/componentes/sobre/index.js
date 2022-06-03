@@ -26,7 +26,7 @@ function Sobre (){
                 <p className="texto paragrafoSobre textoNegrito"><FaTv color="#00d2df"/> Meu foco é poder ajudar a melhorar a vida das pessoas, por meio do desenvolvimento aplicações que sejam acessíveis e funcionais.</p>
                 <p className="texto paragrafoSobre textoNegrito"><FaSearch color="#00d2df"/> Em busca da minha primeira oportunidade na área. <span className="textoDestaque">Quem sabe na sua empresa?</span></p>
             </div>
-            <img src={desenho} alt='Avatar' className="avatar" onClick={animarAvatar}/>
+            <img src={desenho} alt='Avatar' className="avatar ocultaMobile" onClick={animarAvatar}/>
             <a href='https://.pngtree.com/so/Boy'>.</a>
          </div>
      </div>
