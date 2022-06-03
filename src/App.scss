@@ -45,3 +45,9 @@
   ::-webkit-scrollbar-thumb:hover {
     background-color: #00bbc5;
   }
+
+@media  screen and (max-width:768px) {
+    .ocultaMobile{
+        display: none;
+    }
+}
