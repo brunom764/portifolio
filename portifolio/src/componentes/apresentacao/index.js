@@ -39,7 +39,7 @@ function Apresentacao (){
                 className='subTextoAnimado textoNegrito'
               />
                 <Button onClick={mostrarInfo} variant="dark" className='button' id='apresentacao'>VER MAIS</Button>
-                <Button onClick={apagarInfo} variant="dark" className='button oculta' id='resumir'>VER MENOS</Button>
+                <Button onClick={apagarInfo} variant="dark" className='button oculta ocultaMobile' id='resumir'>VER MENOS</Button>
             </div>
         </section> 
     ) 

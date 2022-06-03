@@ -21,7 +21,7 @@ const projetos = [
      descricao: 'Site de um restaurante italiano com React, TypeScript, Saas e Bootstrap.',
     img: aBenditaItalia,
     link:'https://a-bendita-italia.vercel.app/',
-    linkGitHub:''},
+    linkGitHub:'https://github.com/brunom764/A-Bendita-Italia'},
     {titulo: 'TyperGame',
      descricao: 'Um jogo de digitação de frases rapidas com o uso do jQuery',
     img: typerGame,
