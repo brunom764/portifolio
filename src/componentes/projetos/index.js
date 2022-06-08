@@ -45,8 +45,8 @@ function Projetos (){
                 </Card.Text>
                 </Card.Body>
                 <Card.Body className='Buttonlinks'>
-                <Card.Link href={projeto.link}><Button variant="dark" className='textoDestaque'>Acessar o site</Button></Card.Link>
-                <Card.Link href={projeto.linkGitHub}><Button variant="secondary">Acessar código</Button></Card.Link>
+                <Card.Link href={projeto.link} target="_blank" ><Button variant="dark" className='textoDestaque'>Acessar o site</Button></Card.Link>
+                <Card.Link href={projeto.linkGitHub} target="_blank" ><Button variant="secondary">Acessar código</Button></Card.Link>
                 </Card.Body>
             </Card>
             )
