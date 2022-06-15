@@ -24,12 +24,12 @@ const skills =  [{
 },{
     id: '4',
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-    titulo:'javaScript',
+    titulo:'JavaScript',
     descricao: 'É uma linguagem de programação criada, a princípio, para ser executada em navegadores e manipular comportamentos de páginas web'
 },{
     id: '5',
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
-    titulo:'typeScript',
+    titulo:'TypeScript',
     descricao: 'É um conjunto de ferramentas e formas mais eficientes de escrever código JavaScript, adicionando recursos que não estão presentes de maneira nativa na linguagem'
 },{
     id: '6',
@@ -62,10 +62,10 @@ const skills =  [{
     titulo:'Python',
     descricao: 'É uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte'
 },{
-    id: '9',
+    id: '12',
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg",
     titulo:'mySQL',
-    descricao: 'é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface'
+    descricao: 'É um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface'
 }]
 
 function mostrarDescricao(id){
