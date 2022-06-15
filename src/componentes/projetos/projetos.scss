@@ -12,16 +12,17 @@
 .card{
     width: 20%;
     margin: 2rem auto;
-    //box-shadow:10px 10px 10px 5px rgba(0, 210, 223, 0.2);
-    //-moz-box-shadow: 0px 20px 20px #00d2df;
-    //-webkit-box-shadow: 0px 20px 20px #00d2df;
+    box-shadow:2.5px 2.5px 2.5px 2.5px rgba(0, 210, 223, 0.25);
+    -moz-box-shadow: 2.5px 5px 5px rgba(0, 210, 223, 0.25);
+    -webkit-box-shadow: 2.5px 5px 5px rgba(0, 210, 223, 0.25);
     border-left: solid 5px #00d2df;
 }
+
 
 .cardImg{
     object-fit: cover;
     max-height: 10rem;
-    border-bottom: solid 0.5px #222;
+    border-bottom: solid 0.5px #00d2df;
 }
 
 .Buttonlinks{
