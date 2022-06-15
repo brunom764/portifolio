@@ -63,7 +63,7 @@ const skills =  [{
     descricao: 'É uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte'
 },{
     id: '9',
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg",
     titulo:'mySQL',
     descricao: 'é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface'
 }]
