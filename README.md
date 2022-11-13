@@ -1,6 +1,6 @@
 # Portifolio 
 
-Nele eu apresento meus projetos, ferramentas que uso em programação e me apresento :)
+Neste web-site eu apresento meus projetos, ferramentas que uso em programação e me apresento :)
 
 # Teste aqui: https://portifolio-rho-lyart.vercel.app/
 
