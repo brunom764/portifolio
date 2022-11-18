@@ -5,21 +5,10 @@ Neste web-site eu apresento meus projetos, ferramentas que uso em programação 
 # Teste aqui: https://portifolio-rho-lyart.vercel.app/
 
 <img src='https://i.imgur.com/iX6KpEx.png' heigth:10rem width:50rem/>
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 
 <h4 align="center"> 
 	🚧  React Select 🚀 Em construção...  🚧
 </h4>
-
-### 🏁 Features
-
-- [x] Cadastro de cliente
-- [x] Cliente selecionar os produtos para a compra
-- [x] Finalização da compra
-- [x] Atualização no saldo do cliente
-- [x] Efetuar compra
-- [ ] Tela de administração para atualização do estoque
 
 ### 🛠 Tecnologias
 
@@ -30,6 +19,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - Material-ui
 - Bootstrap
 - Animate css
+
+### 🏁 Features
+
+- [x] Dinamicdade na apresentação
+- [x] Dinamicidade na tela de conhecimentos
 
 #### 🧭 Rodando a aplicação web
 
