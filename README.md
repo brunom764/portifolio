@@ -7,7 +7,7 @@ Neste web-site eu apresento meus projetos, ferramentas que uso em programação 
 <img src='https://i.imgur.com/iX6KpEx.png' heigth:10rem width:50rem/>
 
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚧  React Select 🚀 Finalizado 🚧
 </h4>
 
 ### 🛠 Tecnologias
