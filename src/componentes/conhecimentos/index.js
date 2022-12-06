@@ -80,7 +80,7 @@ const skills =  [{
     id: '15',
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-plain-wordmark.svg",
     titulo:'Jupyter Notebook',
-    descricao: 'é uma ferramenta de Literate Computing, extremamente eficientes, pois permitem unir código e texto e também pode gerar gráficos em tempo real dentro da ferramenta'
+    descricao: 'É uma ferramenta de Literate Computing, extremamente eficientes, pois permitem unir código e texto e também pode gerar gráficos em tempo real dentro da ferramenta'
 }]
 
 function mostrarDescricao(id){
