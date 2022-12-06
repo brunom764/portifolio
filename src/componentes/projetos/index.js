@@ -6,28 +6,31 @@ import aBenditaItalia from 'assets/projetos/a-bendita-italia.png'
 import typerGame from 'assets/projetos/typerGame.png'
 
 
-const projetos = [
-    {titulo: 'BraFood',
-     descricao: 'Um e-commerce de vegetais orgânicos com React, styled-compoments, context-api e material-ui ',
-    img: brafood,
-    link:'https://brafoods.vercel.app/',
-    linkGitHub:'https://github.com/brunom764/braFood'},
-    {titulo: 'Events calendar',
-     descricao: 'Um calendário atualizado com eventos com uso de React e a biblioeteca recoil',
-    img: eventsCalendar,
-    link:'https://events-calendar-lovat.vercel.app/',
-    linkGitHub:'https://github.com/brunom764/events-calendar'},
-    {titulo: 'A Bendita Italia',
+const projetos = [{
+     titulo: 'BraFood',
+     descricao: 'Um e-commerce de vegetais orgânicos com React, styled-compoments, context-api e material-ui.',
+     img: brafood,
+     link:'https://brafoods.vercel.app/',
+     linkGitHub:'https://github.com/brunom764/braFood'
+    },{
+     titulo: 'Events calendar',
+     descricao: 'Um calendário atualizado com eventos com uso de React e a biblioeteca recoil.',
+     img: eventsCalendar,
+     link:'https://events-calendar-lovat.vercel.app/',
+     linkGitHub:'https://github.com/brunom764/events-calendar'
+    },{
+     titulo: 'A Bendita Italia',
      descricao: 'Site de um restaurante italiano com React, TypeScript, Saas e Bootstrap.',
-    img: aBenditaItalia,
-    link:'https://a-bendita-italia.vercel.app/',
-    linkGitHub:'https://github.com/brunom764/A-Bendita-Italia'},
-    {titulo: 'TyperGame',
-     descricao: 'Um jogo de digitação de frases rapidas com o uso do jQuery',
-    img: typerGame,
-    link:' https://typer-game.vercel.app/',
-    linkGitHub:'https://github.com/brunom764/TyperGame'},
-]
+     img: aBenditaItalia,
+     link:'https://a-bendita-italia.vercel.app/',
+     linkGitHub:'https://github.com/brunom764/A-Bendita-Italia'
+    },{
+     titulo: 'TyperGame',
+     descricao: 'Um jogo de digitação de frases rapidas com o uso do jQuery.',
+     img: typerGame,
+     link:' https://typer-game.vercel.app/',
+     linkGitHub:'https://github.com/brunom764/TyperGame'
+    }]
 
 function Projetos (){
    return (
