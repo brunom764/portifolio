@@ -33,7 +33,7 @@ function Apresentacao (){
             <div>
                 <h1 className="texto animate__animated animate__bounce"> Olá, eu sou Bruno. <br></br>Bem-vindo ao meu portifólio!</h1>
                 <Typical 
-                steps={['Front-End Developer', 2000, 'React Developer', 2000]}
+                steps={['JavaScript Developer', 2000,'Python Developer',2000, 'React Developer', 2000]}
                 loop={Infinity}
                 wrapper="h2"
                 className='subTextoAnimado textoNegrito'
