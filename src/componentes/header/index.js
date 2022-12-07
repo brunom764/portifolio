@@ -1,10 +1,10 @@
-
+import './header.scss'
 import {Navbar, Container, Nav,NavDropdown } from 'react-bootstrap';
 
 
 function Header() {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" style={{ borderBottom:'solid 5px #00d2df'}} >
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed='top' className='navbar' >
         <Container>
         <Navbar.Brand href="#home" className='titulo destaquePrimeiraLetra'>Bruno Moreira</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
