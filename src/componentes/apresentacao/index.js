@@ -9,10 +9,12 @@ function mostrarInfo() {
     const apresentacao = document.getElementById('apresentacao')
     const portifolio = document.getElementById('portifolio')
     const resumir = document.getElementById('resumir')
+    const telaInicial = document.getElementById('telaInicial')
+    const portifolioAltura = telaInicial.getBoundingClientRect().bottom
     apresentacao.classList.add("oculta");
     portifolio.classList.remove("oculta");
     resumir.classList.remove("oculta");
-    window.scrollTo(0,750)
+    window.scrollTo(0,portifolioAltura - 100)
 }
 
 function apagarInfo() {
@@ -26,14 +28,14 @@ function apagarInfo() {
 
 function Apresentacao (){
     return (
-        <section className='apresentacao ocupaTela'>
+        <section className='apresentacao ocupaTela' id='telaInicial'>
             <div>
                 <img className="img animate__animated animate__bounce" src={fotoDePerfil} alt='foto de perfil'/>
             </div>
             <div>
                 <h1 className="texto animate__animated animate__bounce"> Olá, eu sou Bruno. <br></br>Bem-vindo ao meu portifólio!</h1>
                 <Typical 
-                steps={['JavaScript Developer', 2000,'Python Developer',2000, 'React Developer', 2000]}
+                steps={['JavaScript Developer', 4000,'Python Developer',4000, 'React Developer', 4000]}
                 loop={Infinity}
                 wrapper="h2"
                 className='subTextoAnimado textoNegrito'
