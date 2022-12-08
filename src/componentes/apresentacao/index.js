@@ -12,7 +12,7 @@ function mostrarInfo() {
     apresentacao.classList.add("oculta");
     portifolio.classList.remove("oculta");
     resumir.classList.remove("oculta");
-    window.scrollTo(0,650)
+    window.scrollTo(0,750)
 }
 
 function apagarInfo() {

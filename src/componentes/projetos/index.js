@@ -5,7 +5,7 @@ import eventsCalendar from 'assets/projetos/eventsCalendar.png'
 import aBenditaItalia from 'assets/projetos/a-bendita-italia.png'
 import typerGame from 'assets/projetos/typerGame.png'
 import dashboard from 'assets/projetos/dashboard.png'
-import analise from 'assets/projetos/analiseDados.png'
+import analise from 'assets/projetos/analise2.png'
 
 
 const projetos = [{
@@ -39,7 +39,7 @@ const projetos = [{
         link:'https://dashboardvacinadosrecife.vercel.app/',
         linkGitHub:'https://github.com/brunom764/dashboardVacinados'
     },{
-        titulo: 'Analise de dados',
+        titulo: 'Analise de dados vacinação',
         descricao: 'Projeto de visualização de dados com a utilização da linguagem python e as seguintes bibliotecas: pandas, matplotlib e seaborn.',
         img: analise,
         link:'https://github.com/brunom764/analiseDadosVacinados',
