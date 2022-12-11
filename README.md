@@ -7,7 +7,7 @@ Neste web-site eu mostro meus projetos, ferramentas que uso em programação e m
 <img src='https://i.imgur.com/iX6KpEx.png' heigth:10rem width:50rem/>
 
 <h4 align="center"> 
-	🚧  React Select 🚀 Finalizado 🚧
+	 🚀 Finalizado 🚀
 </h4>
 
 ### 🛠 Tecnologias
@@ -17,7 +17,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - React
 - Sass
 - Material-ui
-- Bootstrap
+- React Bootstrap
 - Animate css
 
 ### 🏁 Features
