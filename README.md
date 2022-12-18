@@ -24,6 +24,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [x] Dinamicdade na apresentação
 - [x] Dinamicidade na tela de conhecimentos
+- [x] Animações na tela de apresentação
 
 #### 🧭 Rodando a aplicação web
 
