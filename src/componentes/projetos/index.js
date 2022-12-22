@@ -49,7 +49,7 @@ const projetos = [{
 function Projetos (){
    return (
     <div className='projetos'>
-        <h1 className='titulo destaquePrimeiraLetra'>Meus projetos</h1>
+        <h1 className='titulo destaquePrimeiraLetra'>Meus principais projetos</h1>
         <section className='cardsProjetos'>
         {projetos.map(projeto => {
             return (
