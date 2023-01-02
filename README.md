@@ -15,6 +15,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - Material-ui
 - React Bootstrap
 - Animate css
+- React typical
 
 ### 🏁 Features
 
