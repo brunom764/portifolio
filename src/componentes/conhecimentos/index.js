@@ -63,26 +63,31 @@ const skills =  [{
     descricao: 'É um framework JavaScript open source para a criação de aplicações web'
 },{
     id: '12',
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+    titulo:'Node js',
+    descricao: 'É um ambiente de execução Javascript server-side com  alta capacidade de escala, flexibilidade e baixo custo'
+},{
+    id: '13',
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
     titulo:'Git',
     descricao: 'É um sistema de controle de versão open-source'
 },{
-    id: '13',
+    id: '14',
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
     titulo:'Python',
     descricao: 'É uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte'
 },{
-    id: '14',
+    id: '15',
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg",
     titulo:'Pandas',
     descricao: 'É uma biblioteca de software criada para a linguagem Python para manipulação e análise de dados'
 },{
-    id: '15',
+    id: '16',
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg",
     titulo:'mySQL',
     descricao: 'É um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface'
 },{
-    id: '16',
+    id: '17',
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-plain-wordmark.svg",
     titulo:'Jupyter Notebook',
     descricao: 'É uma ferramenta de Literate Computing, extremamente eficientes, pois permitem unir código e texto e também pode gerar gráficos em tempo real dentro da ferramenta'
