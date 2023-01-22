@@ -1,0 +1,9 @@
+.navbar{
+    border-bottom:solid 5px #00d2df;
+}
+
+@media screen and (max-width:1024px) {
+    .navbar{
+        position: relative;
+    }
+}

@@ -1,5 +1,5 @@
 .projetos{
-    padding:2rem;
+    padding:2.5rem;
     background-color: #F7F7F7;
 }
 
@@ -10,18 +10,19 @@
 }
 
 .card{
-    width: 20%;
-    margin: 2rem auto;
-    //box-shadow:10px 10px 10px 5px rgba(0, 210, 223, 0.2);
-    //-moz-box-shadow: 0px 20px 20px #00d2df;
-    //-webkit-box-shadow: 0px 20px 20px #00d2df;
+    width: 28%;
+    margin: 1rem auto 2.5rem;
+    box-shadow:2.5px 2.5px 2.5px 2.5px rgba(0, 210, 223, 0.25);
+    -moz-box-shadow: 2.5px 5px 5px rgba(0, 210, 223, 0.25);
+    -webkit-box-shadow: 2.5px 5px 5px rgba(0, 210, 223, 0.25);
     border-left: solid 5px #00d2df;
 }
 
+
 .cardImg{
     object-fit: cover;
-    max-height: 10rem;
-    border-bottom: solid 0.5px #222;
+    max-height: 15rem;
+    border-bottom: solid 0.5px #00d2df;
 }
 
 .Buttonlinks{
@@ -40,11 +41,13 @@
 }
 
 @media screen and (max-width:768px) { //mobile
+    .projetos{
+        padding: 1.5rem;
+    }
     .card{
-        width:70%
+        width:80%
     }
     .Buttonlinks{
-        display: flex;
         margin: 0 auto;
     }
 }
