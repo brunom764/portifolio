@@ -1,4 +1,4 @@
-import { FaRegUserCircle, FaUniversity, FaTv, FaSearch } from "react-icons/fa";
+import { FaRegUserCircle, FaUniversity, FaTv, FaSearch, FaMouse } from "react-icons/fa";
 import Typical from 'react-typical';
 import desenho from '../../assets/avatarNot.png'
 import './sobre.scss'
@@ -24,7 +24,7 @@ function Sobre (){
                 <p className="texto paragrafoSobre textoNegrito"><FaRegUserCircle color="#00d2df" /> Meu nome é Bruno Moreira e adoro solucionar problemas através de códigos.</p>
                 <p className="texto paragrafoSobre textoNegrito"><FaUniversity color="#00d2df"/> Atualmente, curso bacharelado em Sistemas de Informação na Universidade Federal de Pernambuco(UFPE).</p>
                 <p className="texto paragrafoSobre textoNegrito"><FaTv color="#00d2df"/> Meu foco é poder ajudar a melhorar a vida das pessoas, por meio do desenvolvimento aplicações que sejam acessíveis e funcionais.</p>
-                <p className="texto paragrafoSobre textoNegrito"><FaSearch color="#00d2df"/> Em busca da minha primeira oportunidade na área. <span className="textoDestaque">Quem sabe na sua empresa?</span></p>
+                <p className="texto paragrafoSobre textoNegrito"><FaMouse color="#00d2df"/> Sou desenvolvedor front-end, estudando tecnologias back-end visando virar um desenvolvedor full-stack e com muito conhecimento em análise de dados e machine learning.</p>
             </div>
             <img src={desenho} alt='Avatar' className="avatar ocultaMobile" onClick={animarAvatar}/>
             <a href='https://.pngtree.com/so/Boy'>.</a>
