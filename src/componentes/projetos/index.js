@@ -28,7 +28,7 @@ const projetos = [{
         linkGitHub:'https://github.com/brunom764/braFood'
     },{
      titulo: 'TyperGame',
-     descricao: 'Um jogo de digitação de frases rapidas com o uso do jQuery.',
+     descricao: 'Um jogo de digitação de frases rapidas com o uso do jQuery e requisição de pontuação dos jogadores.',
      img: typerGame,
      link:' https://typer-game.vercel.app/',
      linkGitHub:'https://github.com/brunom764/TyperGame'
@@ -40,7 +40,7 @@ const projetos = [{
         linkGitHub:'https://github.com/brunom764/dashboardVacinados'
     },{
         titulo: 'Analise de dados vacinação',
-        descricao: 'Projeto de visualização de dados com a utilização da linguagem python e as seguintes bibliotecas: pandas, matplotlib e seaborn.',
+        descricao: 'Projeto de visualização de dados com a utilização do python e as bibliotecas pandas, matplotlib e seaborn.',
         img: analise,
         link:'https://github.com/brunom764/analiseDadosVacinados',
         linkGitHub:'https://github.com/brunom764/analiseDadosVacinados'
@@ -62,8 +62,8 @@ function Projetos (){
                 </Card.Text>
                 </Card.Body>
                 <Card.Body className='Buttonlinks'>
-                <Card.Link href={projeto.link} target="_blank" ><Button variant="dark" className='textoDestaque'>Acessar o site</Button></Card.Link>
-                <Card.Link href={projeto.linkGitHub} target="_blank" ><Button variant="secondary">Acessar código</Button></Card.Link>
+                <Card.Link href={projeto.link} target="_blank" ><Button variant="dark" className='textoDestaque'>Acessar o deploy</Button></Card.Link>
+                <Card.Link href={projeto.linkGitHub} target="_blank" ><Button variant="secondary">Ver mais</Button></Card.Link>
                 </Card.Body>
             </Card>
             )
