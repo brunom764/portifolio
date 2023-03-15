@@ -3,9 +3,9 @@ import './projetos.scss'
 import brafood from 'assets/projetos/brafood.png'
 import eventsCalendar from 'assets/projetos/eventsCalendar.png'
 import aBenditaItalia from 'assets/projetos/a-bendita-italia.png'
+import organo from 'assets/projetos/organo.png'
 import typerGame from 'assets/projetos/typerGame.png'
 import dashboard from 'assets/projetos/dashboard.png'
-import analise from 'assets/projetos/analise2.png'
 
 
 const projetos = [{
@@ -27,6 +27,12 @@ const projetos = [{
         link:'https://brafoods.vercel.app/',
         linkGitHub:'https://github.com/brunom764/braFood'
     },{
+        titulo: 'Organo',
+        descricao: 'Aplicação web com cadastro de funcionários e criação dinâmica de cards de funcionários utilizando React.',
+        img: organo,
+        link:'https://organa-brunom764.vercel.app/',
+        linkGitHub:'https://github.com/brunom764/organo'
+    },{
      titulo: 'TyperGame',
      descricao: 'Um jogo de digitação de frases rapidas com o uso do jQuery e requisição de pontuação dos jogadores.',
      img: typerGame,
@@ -38,12 +44,6 @@ const projetos = [{
         img: dashboard,
         link:'https://dashboardvacinadosrecife.vercel.app/',
         linkGitHub:'https://github.com/brunom764/dashboardVacinados'
-    },{
-        titulo: 'Analise de dados vacinação',
-        descricao: 'Projeto de visualização de dados com a utilização do python e as bibliotecas pandas, matplotlib e seaborn.',
-        img: analise,
-        link:'https://github.com/brunom764/analiseDadosVacinados',
-        linkGitHub:'https://github.com/brunom764/analiseDadosVacinados'
     }]
 
 function Projetos (){
