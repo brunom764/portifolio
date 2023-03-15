@@ -133,7 +133,7 @@ function Conhecimentos(){
                 )})}
             </div>
             <div className='blocoDescricaoConhecimento' id='blocoDescricaoConhecimento'>
-                <h3 className='titulo textoDestaque textoNegrito' id='tituloConhecimento'>Clique em um conhecimento</h3>
+                <h3 className='titulo textoDestaque textoNegrito' id='tituloConhecimento'>Clique em uma skill</h3>
                 <p className='descricaoConhecimento' id='descricaoConhecimento'></p>
                 <p className='descricaoConhecimento subtitulo textoNegrito' id='domConhecimento'></p>
             </div>
