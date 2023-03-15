@@ -4,14 +4,14 @@ const skills =  [{
     id: '0',
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg",
     titulo:'HTML 5',
-    descricao: 'É uma linguagem usada para a publicação de conteúdo (texto, imagens, vídeos, áudio etc.) na web',
+    descricao: 'É uma linguagem usada para a publicação de conteúdo (texto, imagens, vídeos, áudio etc.) na web.',
     dom: 'Domínio: Especialista'
 },
 {
     id: '1',
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg",
     titulo:'CSS 3',
-    descricao: 'É um mecanismo para dar estilo a um código criado por linguagens como HTML, XML ou XHTML',
+    descricao: 'É um mecanismo para dar estilo a um código criado por linguagens como HTML, XML ou XHTML.',
     dom: 'Domínio: Especialista'
 },{
     id: '2',
@@ -29,7 +29,7 @@ const skills =  [{
     id: '4',
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
     titulo:'Tailwind css',
-    descricao: 'É um framework do CSS, o qual fornece classes utilitárias de propósito único que são, em sua maioria, opinativas que facilitam a projetação de páginas da web diretamente de dentro de arquivos de marcação ou . js',
+    descricao: 'É um framework do CSS, o qual fornece classes utilitárias de propósito único que são, em sua maioria, opinativas que facilitam a projetação de páginas da web',
     dom: 'Domínio: Avançado'
 },{
     id: '5',
@@ -107,7 +107,7 @@ const skills =  [{
     id: '17',
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-plain-wordmark.svg",
     titulo:'Jupyter Notebook',
-    descricao: 'É uma ferramenta de Literate Computing, extremamente eficientes, pois permitem unir código e texto e também pode gerar gráficos em tempo real dentro da ferramenta',
+    descricao: 'É uma ferramenta de Literate Computing, que permite unir código e texto e também pode gerar gráficos em tempo real dentro da ferramenta',
     dom: 'Domínio: Avançado'
 }]
 
@@ -133,9 +133,9 @@ function Conhecimentos(){
                 )})}
             </div>
             <div className='blocoDescricaoConhecimento' id='blocoDescricaoConhecimento'>
-                <h3 className='subtitulo textoDestaque textoNegrito' id='tituloConhecimento'>Clique em um conhecimento</h3>
+                <h3 className='titulo textoDestaque textoNegrito' id='tituloConhecimento'>Clique em um conhecimento</h3>
                 <p className='descricaoConhecimento' id='descricaoConhecimento'></p>
-                <p className='descricaoConhecimento' id='domConhecimento'></p>
+                <p className='descricaoConhecimento subtitulo textoNegrito' id='domConhecimento'></p>
             </div>
         </section>
      </section>        
