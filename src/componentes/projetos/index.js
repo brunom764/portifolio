@@ -6,6 +6,8 @@ import aBenditaItalia from 'assets/projetos/a-bendita-italia.png'
 import organo from 'assets/projetos/organo.png'
 import typerGame from 'assets/projetos/typerGame.png'
 import dashboard from 'assets/projetos/dashboard.png'
+import analise from 'assets/projetos/analise2.png'
+import visao from 'assets/projetos/visao.png'
 
 
 const projetos = [{
@@ -44,6 +46,18 @@ const projetos = [{
         img: dashboard,
         link:'https://dashboardvacinadosrecife.vercel.app/',
         linkGitHub:'https://github.com/brunom764/dashboardVacinados'
+    },{
+        titulo: 'Analise de dados vacinação',
+        descricao: 'Projeto de visualização de dados com a utilização do python e as bibliotecas pandas, matplotlib e seaborn.',
+        img: analise,
+        link:'https://github.com/brunom764/analiseDadosVacinados',
+        linkGitHub:'https://github.com/brunom764/analiseDadosVacinados'
+    },{
+        titulo: 'Visão computacional',
+        descricao: 'Projeto de machine learning, no qual a máquina preve se uma foto é de um gato ou não.',
+        img: visao,
+        link:'https://colab.research.google.com/github/brunom764/machineLearning/blob/main/MachineLearningPicture.ipynb',
+        linkGitHub:'https://github.com/brunom764/machineLearning/blob/main/MachineLearningPicture.ipynb'
     }]
 
 function Projetos (){
