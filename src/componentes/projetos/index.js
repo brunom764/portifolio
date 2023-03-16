@@ -81,7 +81,7 @@ function Projetos (){
                 </Card.Body>
             </Card>
             )
-            })};
+            })}
         </section>
     </div>
         )
