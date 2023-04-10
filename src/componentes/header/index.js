@@ -12,8 +12,8 @@ function Header() {
           <Nav className="me-auto">
           </Nav>
           <Nav>
-            <Nav.Link href="https://github.com/brunom764" className='subtitulo destaquePrimeiraLetra textoNegrito' target="_blank">GitHub</Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/in/bruno-miguel-a08022239/" className='subtitulo destaquePrimeiraLetra textoNegrito' target="_blank">Linkedin</Nav.Link>
+            <Nav.Link href="https://github.com/brunom764" className='subtitulo  textoNegrito' target="_blank">GitHub</Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/in/bruno-miguel-a08022239/" className='subtitulo textoNegrito' target="_blank">Linkedin</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Container>
