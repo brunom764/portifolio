@@ -11,7 +11,6 @@
 
 .blocoDescricaoConhecimento{
     margin-top: 2.5rem;
-    background: linear-gradient(#FFFFFF, #F7F7F7, #FFFFFF);
     padding: 2.5rem;
 }
 
@@ -32,7 +31,7 @@
     margin: 2rem;
     //border-radius: 20px;
     //box-shadow:5px 5px 5px 2.5px rgba(0, 210, 223, 0.2);
-    filter: drop-shadow(10px 10px 10px rgba(0, 210, 223, 0.2))
+    filter: drop-shadow(10px 10px 10px rgba(0, 210, 223, 0.1))
 }
 
 .conhecimentoImg:hover{
@@ -61,6 +60,5 @@
     }
     .blocoDescricaoConhecimento{
         margin-top: 2.5rem;
-        background: linear-gradient(#FFFFFF, #F7F7F7, #FFFFFF);
     }
 }

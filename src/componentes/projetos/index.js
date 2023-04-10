@@ -35,18 +35,6 @@ const projetos = [{
         link:'https://organa-brunom764.vercel.app/',
         linkGitHub:'https://github.com/brunom764/organo'
     },{
-     titulo: 'TyperGame',
-     descricao: 'Um jogo de digitação de frases rapidas com o uso do jQuery e requisição de pontuação dos jogadores.',
-     img: typerGame,
-     link:' https://typer-game.vercel.app/',
-     linkGitHub:'https://github.com/brunom764/TyperGame'
-    },{
-        titulo: 'Dashboard vacinação',
-        descricao: 'Dashboard de analise de dados de vacinados contra a covid-19 em Recife-PE com o uso de React.',
-        img: dashboard,
-        link:'https://dashboardvacinadosrecife.vercel.app/',
-        linkGitHub:'https://github.com/brunom764/dashboardVacinados'
-    },{
         titulo: 'Analise de dados vacinação',
         descricao: 'Projeto de visualização de dados com a utilização do python e as bibliotecas pandas, matplotlib e seaborn.',
         img: analise,
