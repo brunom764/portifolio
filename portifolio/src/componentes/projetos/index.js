@@ -3,9 +3,11 @@ import './projetos.scss'
 import brafood from 'assets/projetos/brafood.png'
 import eventsCalendar from 'assets/projetos/eventsCalendar.png'
 import aBenditaItalia from 'assets/projetos/a-bendita-italia.png'
+import organo from 'assets/projetos/organo.png'
 import typerGame from 'assets/projetos/typerGame.png'
 import dashboard from 'assets/projetos/dashboard.png'
 import analise from 'assets/projetos/analise2.png'
+import visao from 'assets/projetos/visao.png'
 
 
 const projetos = [{
@@ -27,23 +29,23 @@ const projetos = [{
         link:'https://brafoods.vercel.app/',
         linkGitHub:'https://github.com/brunom764/braFood'
     },{
-     titulo: 'TyperGame',
-     descricao: 'Um jogo de digitação de frases rapidas com o uso do jQuery.',
-     img: typerGame,
-     link:' https://typer-game.vercel.app/',
-     linkGitHub:'https://github.com/brunom764/TyperGame'
-    },{
-        titulo: 'Dashboard vacinação',
-        descricao: 'Dashboard de analise de dados de vacinados contra a covid-19 em Recife-PE com o uso de React.',
-        img: dashboard,
-        link:'https://dashboardvacinadosrecife.vercel.app/',
-        linkGitHub:'https://github.com/brunom764/dashboardVacinados'
+        titulo: 'Organo',
+        descricao: 'Aplicação web com cadastro de funcionários e criação dinâmica de cards de funcionários utilizando React.',
+        img: organo,
+        link:'https://organa-brunom764.vercel.app/',
+        linkGitHub:'https://github.com/brunom764/organo'
     },{
         titulo: 'Analise de dados vacinação',
-        descricao: 'Projeto de visualização de dados com a utilização da linguagem python e as seguintes bibliotecas: pandas, matplotlib e seaborn.',
+        descricao: 'Projeto de visualização de dados com a utilização do python e as bibliotecas pandas, matplotlib e seaborn.',
         img: analise,
         link:'https://github.com/brunom764/analiseDadosVacinados',
         linkGitHub:'https://github.com/brunom764/analiseDadosVacinados'
+    },{
+        titulo: 'Visão computacional',
+        descricao: 'Projeto de machine learning, no qual a máquina preve se uma foto é de um gato ou não.',
+        img: visao,
+        link:'https://colab.research.google.com/github/brunom764/machineLearning/blob/main/MachineLearningPicture.ipynb',
+        linkGitHub:'https://github.com/brunom764/machineLearning/blob/main/MachineLearningPicture.ipynb'
     }]
 
 function Projetos (){
@@ -62,12 +64,12 @@ function Projetos (){
                 </Card.Text>
                 </Card.Body>
                 <Card.Body className='Buttonlinks'>
-                <Card.Link href={projeto.link} target="_blank" ><Button variant="dark" className='textoDestaque'>Acessar o site</Button></Card.Link>
-                <Card.Link href={projeto.linkGitHub} target="_blank" ><Button variant="secondary">Acessar código</Button></Card.Link>
+                <Card.Link href={projeto.link} target="_blank" ><Button variant="dark" className='textoDestaque'>Acessar o deploy</Button></Card.Link>
+                <Card.Link href={projeto.linkGitHub} target="_blank" ><Button variant="secondary">Ver mais</Button></Card.Link>
                 </Card.Body>
             </Card>
             )
-            })};
+            })}
         </section>
     </div>
         )
