@@ -8,13 +8,24 @@ import robocin from 'assets/projetos/robocin.png'
 import analise from 'assets/projetos/analise2.png'
 
 
-const projetos = [
-    {
+const projetos = [{
         titulo: 'Dashboard RoboCIn',
         descricao: 'Um dashboard para um projeto da UFPE usando react js, tailwind css, jest, node js e express.',
         img: robocin,
         link:'https://brunom764.github.io/dashboardRC/',
         linkGitHub:'https://github.com/brunom764/dashboardRC'
+    },{
+        titulo: 'Organo',
+        descricao: 'Aplicação web com cadastro de funcionários e criação dinâmica de cards de funcionários utilizando React.',
+        img: organo,
+        link:'https://organa-brunom764.vercel.app/',
+        linkGitHub:'https://github.com/brunom764/organo'
+    },{
+        titulo: 'A Bendita Italia',
+        descricao: 'Site de um restaurante italiano com React, TypeScript, Saas e Bootstrap.',
+        img: aBenditaItalia,
+        link:'https://a-bendita-italia.vercel.app/',
+        linkGitHub:'https://github.com/brunom764/A-Bendita-Italia'
     },{
      titulo: 'Events calendar',
      descricao: 'Um calendário atualizado com eventos com uso de React e a biblioeteca recoil.',
@@ -22,23 +33,11 @@ const projetos = [
      link:'https://events-calendar-lovat.vercel.app/',
      linkGitHub:'https://github.com/brunom764/events-calendar'
     },{
-     titulo: 'A Bendita Italia',
-     descricao: 'Site de um restaurante italiano com React, TypeScript, Saas e Bootstrap.',
-     img: aBenditaItalia,
-     link:'https://a-bendita-italia.vercel.app/',
-     linkGitHub:'https://github.com/brunom764/A-Bendita-Italia'
-    },{
         titulo: 'BraFood',
         descricao: 'Um e-commerce de vegetais orgânicos com React, styled-compoments, context-api e material-ui.',
         img: brafood,
         link:'https://brafoods.vercel.app/',
         linkGitHub:'https://github.com/brunom764/braFood'
-    },{
-        titulo: 'Organo',
-        descricao: 'Aplicação web com cadastro de funcionários e criação dinâmica de cards de funcionários utilizando React.',
-        img: organo,
-        link:'https://organa-brunom764.vercel.app/',
-        linkGitHub:'https://github.com/brunom764/organo'
     },{
         titulo: 'Analise de dados vacinação',
         descricao: 'Projeto de visualização de dados com a utilização do python e as bibliotecas pandas, matplotlib e seaborn.',
