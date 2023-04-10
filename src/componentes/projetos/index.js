@@ -4,13 +4,18 @@ import brafood from 'assets/projetos/brafood.png'
 import eventsCalendar from 'assets/projetos/eventsCalendar.png'
 import aBenditaItalia from 'assets/projetos/a-bendita-italia.png'
 import organo from 'assets/projetos/organo.png'
-import typerGame from 'assets/projetos/typerGame.png'
-import dashboard from 'assets/projetos/dashboard.png'
+import robocin from 'assets/projetos/robocin.png'
 import analise from 'assets/projetos/analise2.png'
-import visao from 'assets/projetos/visao.png'
 
 
-const projetos = [{
+const projetos = [
+    {
+        titulo: 'Dashboard RoboCIn',
+        descricao: 'Um dashboard para um projeto da UFPE usando react js, tailwind css, jest, node js e express.',
+        img: robocin,
+        link:'https://brunom764.github.io/dashboardRC/',
+        linkGitHub:'https://github.com/brunom764/dashboardRC'
+    },{
      titulo: 'Events calendar',
      descricao: 'Um calendário atualizado com eventos com uso de React e a biblioeteca recoil.',
      img: eventsCalendar,
@@ -40,12 +45,6 @@ const projetos = [{
         img: analise,
         link:'https://github.com/brunom764/analiseDadosVacinados',
         linkGitHub:'https://github.com/brunom764/analiseDadosVacinados'
-    },{
-        titulo: 'Visão computacional',
-        descricao: 'Projeto de machine learning, no qual a máquina preve se uma foto é de um gato ou não.',
-        img: visao,
-        link:'https://colab.research.google.com/github/brunom764/machineLearning/blob/main/MachineLearningPicture.ipynb',
-        linkGitHub:'https://github.com/brunom764/machineLearning/blob/main/MachineLearningPicture.ipynb'
     }]
 
 function Projetos (){
